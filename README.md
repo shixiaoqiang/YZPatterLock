@@ -1,4 +1,6 @@
 # YZPatterLock
 手势密码设置，有箭头指向的算法，功能、界面同支付宝设置手势密码相似
 # Demo Project
-屏幕快照 2016-02-29 下午6.41.52
+![image](https://github.com/shixiaoqiang/YZPatterLock/1.png)
+![image](https://github.com/shixiaoqiang/YZPatterLock/2.png)
+![image](https://github.com/shixiaoqiang/YZPatterLock/3.png)
