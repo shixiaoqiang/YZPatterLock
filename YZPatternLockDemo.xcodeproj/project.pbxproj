@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69D5B0761C844A1E0048633D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0751C844A1E0048633D /* main.m */; };
+		69D5B0791C844A1F0048633D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0781C844A1F0048633D /* AppDelegate.m */; };
+		69D5B07C1C844A200048633D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B07B1C844A200048633D /* ViewController.m */; };
+		69D5B07F1C844A210048633D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D5B07D1C844A210048633D /* Main.storyboard */; };
+		69D5B0811C844A210048633D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D5B0801C844A210048633D /* Assets.xcassets */; };
+		69D5B0841C844A210048633D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D5B0821C844A210048633D /* LaunchScreen.storyboard */; };
+		69D5B08F1C844A230048633D /* YZPatternLockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B08E1C844A230048633D /* YZPatternLockDemoTests.m */; };
+		69D5B09A1C844A230048633D /* YZPatternLockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0991C844A230048633D /* YZPatternLockDemoUITests.m */; };
+		69D5B0BB1C844D870048633D /* KKGestureLockPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0A91C844D870048633D /* KKGestureLockPreviewView.m */; };
+		69D5B0BC1C844D870048633D /* KKGestureLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0AB1C844D870048633D /* KKGestureLockView.m */; };
+		69D5B0BD1C844D870048633D /* MathForDraw.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0AD1C844D870048633D /* MathForDraw.m */; };
+		69D5B0BE1C844D870048633D /* NormalCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0AF1C844D870048633D /* NormalCircle.m */; };
+		69D5B0BF1C844D870048633D /* SPLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0B11C844D870048633D /* SPLine.m */; };
+		69D5B0C01C844D870048633D /* SPLockOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0B31C844D870048633D /* SPLockOverlay.m */; };
+		69D5B0C11C844D870048633D /* SPLockScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0B51C844D870048633D /* SPLockScreen.m */; };
+		69D5B0C21C844D870048633D /* TrangleInLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0B71C844D870048633D /* TrangleInLine.m */; };
+		69D5B0C31C844D870048633D /* YZPatternHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5B0B91C844D870048633D /* YZPatternHeaderView.m */; };
+		69D5B0C41C844D870048633D /* YZPatternHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69D5B0BA1C844D870048633D /* YZPatternHeaderView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69D5B08B1C844A230048633D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D5B0691C844A1D0048633D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D5B0701C844A1D0048633D;
+			remoteInfo = YZPatternLockDemo;
+		};
+		69D5B0961C844A230048633D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69D5B0691C844A1D0048633D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69D5B0701C844A1D0048633D;
+			remoteInfo = YZPatternLockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69D5B0711C844A1D0048633D /* YZPatternLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZPatternLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D5B0751C844A1E0048633D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69D5B0771C844A1F0048633D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69D5B0781C844A1F0048633D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69D5B07A1C844A200048633D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		69D5B07B1C844A200048633D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		69D5B07E1C844A210048633D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69D5B0801C844A210048633D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D5B0831C844A210048633D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69D5B0851C844A210048633D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D5B08A1C844A230048633D /* YZPatternLockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZPatternLockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D5B08E1C844A230048633D /* YZPatternLockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPatternLockDemoTests.m; sourceTree = "<group>"; };
+		69D5B0901C844A230048633D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D5B0951C844A230048633D /* YZPatternLockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZPatternLockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D5B0991C844A230048633D /* YZPatternLockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPatternLockDemoUITests.m; sourceTree = "<group>"; };
+		69D5B09B1C844A230048633D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D5B0A81C844D870048633D /* KKGestureLockPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockPreviewView.h; sourceTree = "<group>"; };
+		69D5B0A91C844D870048633D /* KKGestureLockPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockPreviewView.m; sourceTree = "<group>"; };
+		69D5B0AA1C844D870048633D /* KKGestureLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKGestureLockView.h; sourceTree = "<group>"; };
+		69D5B0AB1C844D870048633D /* KKGestureLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKGestureLockView.m; sourceTree = "<group>"; };
+		69D5B0AC1C844D870048633D /* MathForDraw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathForDraw.h; sourceTree = "<group>"; };
+		69D5B0AD1C844D870048633D /* MathForDraw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathForDraw.m; sourceTree = "<group>"; };
+		69D5B0AE1C844D870048633D /* NormalCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalCircle.h; sourceTree = "<group>"; };
+		69D5B0AF1C844D870048633D /* NormalCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalCircle.m; sourceTree = "<group>"; };
+		69D5B0B01C844D870048633D /* SPLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLine.h; sourceTree = "<group>"; };
+		69D5B0B11C844D870048633D /* SPLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLine.m; sourceTree = "<group>"; };
+		69D5B0B21C844D870048633D /* SPLockOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLockOverlay.h; sourceTree = "<group>"; };
+		69D5B0B31C844D870048633D /* SPLockOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLockOverlay.m; sourceTree = "<group>"; };
+		69D5B0B41C844D870048633D /* SPLockScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLockScreen.h; sourceTree = "<group>"; };
+		69D5B0B51C844D870048633D /* SPLockScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLockScreen.m; sourceTree = "<group>"; };
+		69D5B0B61C844D870048633D /* TrangleInLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrangleInLine.h; sourceTree = "<group>"; };
+		69D5B0B71C844D870048633D /* TrangleInLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrangleInLine.m; sourceTree = "<group>"; };
+		69D5B0B81C844D870048633D /* YZPatternHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPatternHeaderView.h; sourceTree = "<group>"; };
+		69D5B0B91C844D870048633D /* YZPatternHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPatternHeaderView.m; sourceTree = "<group>"; };
+		69D5B0BA1C844D870048633D /* YZPatternHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZPatternHeaderView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69D5B06E1C844A1D0048633D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D5B0871C844A230048633D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D5B0921C844A230048633D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69D5B0681C844A1D0048633D = {
+			isa = PBXGroup;
+			children = (
+				69D5B0731C844A1D0048633D /* YZPatternLockDemo */,
+				69D5B08D1C844A230048633D /* YZPatternLockDemoTests */,
+				69D5B0981C844A230048633D /* YZPatternLockDemoUITests */,
+				69D5B0721C844A1D0048633D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69D5B0721C844A1D0048633D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69D5B0711C844A1D0048633D /* YZPatternLockDemo.app */,
+				69D5B08A1C844A230048633D /* YZPatternLockDemoTests.xctest */,
+				69D5B0951C844A230048633D /* YZPatternLockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69D5B0731C844A1D0048633D /* YZPatternLockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				69D5B0A71C844D870048633D /* YZPatternLockUtil */,
+				69D5B0771C844A1F0048633D /* AppDelegate.h */,
+				69D5B0781C844A1F0048633D /* AppDelegate.m */,
+				69D5B07A1C844A200048633D /* ViewController.h */,
+				69D5B07B1C844A200048633D /* ViewController.m */,
+				69D5B07D1C844A210048633D /* Main.storyboard */,
+				69D5B0801C844A210048633D /* Assets.xcassets */,
+				69D5B0821C844A210048633D /* LaunchScreen.storyboard */,
+				69D5B0851C844A210048633D /* Info.plist */,
+				69D5B0741C844A1E0048633D /* Supporting Files */,
+			);
+			path = YZPatternLockDemo;
+			sourceTree = "<group>";
+		};
+		69D5B0741C844A1E0048633D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69D5B0751C844A1E0048633D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69D5B08D1C844A230048633D /* YZPatternLockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				69D5B08E1C844A230048633D /* YZPatternLockDemoTests.m */,
+				69D5B0901C844A230048633D /* Info.plist */,
+			);
+			path = YZPatternLockDemoTests;
+			sourceTree = "<group>";
+		};
+		69D5B0981C844A230048633D /* YZPatternLockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				69D5B0991C844A230048633D /* YZPatternLockDemoUITests.m */,
+				69D5B09B1C844A230048633D /* Info.plist */,
+			);
+			path = YZPatternLockDemoUITests;
+			sourceTree = "<group>";
+		};
+		69D5B0A71C844D870048633D /* YZPatternLockUtil */ = {
+			isa = PBXGroup;
+			children = (
+				69D5B0A81C844D870048633D /* KKGestureLockPreviewView.h */,
+				69D5B0A91C844D870048633D /* KKGestureLockPreviewView.m */,
+				69D5B0AA1C844D870048633D /* KKGestureLockView.h */,
+				69D5B0AB1C844D870048633D /* KKGestureLockView.m */,
+				69D5B0AC1C844D870048633D /* MathForDraw.h */,
+				69D5B0AD1C844D870048633D /* MathForDraw.m */,
+				69D5B0AE1C844D870048633D /* NormalCircle.h */,
+				69D5B0AF1C844D870048633D /* NormalCircle.m */,
+				69D5B0B01C844D870048633D /* SPLine.h */,
+				69D5B0B11C844D870048633D /* SPLine.m */,
+				69D5B0B21C844D870048633D /* SPLockOverlay.h */,
+				69D5B0B31C844D870048633D /* SPLockOverlay.m */,
+				69D5B0B41C844D870048633D /* SPLockScreen.h */,
+				69D5B0B51C844D870048633D /* SPLockScreen.m */,
+				69D5B0B61C844D870048633D /* TrangleInLine.h */,
+				69D5B0B71C844D870048633D /* TrangleInLine.m */,
+				69D5B0B81C844D870048633D /* YZPatternHeaderView.h */,
+				69D5B0B91C844D870048633D /* YZPatternHeaderView.m */,
+				69D5B0BA1C844D870048633D /* YZPatternHeaderView.xib */,
+			);
+			path = YZPatternLockUtil;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69D5B0701C844A1D0048633D /* YZPatternLockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D5B09E1C844A230048633D /* Build configuration list for PBXNativeTarget "YZPatternLockDemo" */;
+			buildPhases = (
+				69D5B06D1C844A1D0048633D /* Sources */,
+				69D5B06E1C844A1D0048633D /* Frameworks */,
+				69D5B06F1C844A1D0048633D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZPatternLockDemo;
+			productName = YZPatternLockDemo;
+			productReference = 69D5B0711C844A1D0048633D /* YZPatternLockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69D5B0891C844A230048633D /* YZPatternLockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D5B0A11C844A230048633D /* Build configuration list for PBXNativeTarget "YZPatternLockDemoTests" */;
+			buildPhases = (
+				69D5B0861C844A230048633D /* Sources */,
+				69D5B0871C844A230048633D /* Frameworks */,
+				69D5B0881C844A230048633D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D5B08C1C844A230048633D /* PBXTargetDependency */,
+			);
+			name = YZPatternLockDemoTests;
+			productName = YZPatternLockDemoTests;
+			productReference = 69D5B08A1C844A230048633D /* YZPatternLockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		69D5B0941C844A230048633D /* YZPatternLockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69D5B0A41C844A230048633D /* Build configuration list for PBXNativeTarget "YZPatternLockDemoUITests" */;
+			buildPhases = (
+				69D5B0911C844A230048633D /* Sources */,
+				69D5B0921C844A230048633D /* Frameworks */,
+				69D5B0931C844A230048633D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69D5B0971C844A230048633D /* PBXTargetDependency */,
+			);
+			name = YZPatternLockDemoUITests;
+			productName = YZPatternLockDemoUITests;
+			productReference = 69D5B0951C844A230048633D /* YZPatternLockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69D5B0691C844A1D0048633D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YZ;
+				TargetAttributes = {
+					69D5B0701C844A1D0048633D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZNLZTB2JA2;
+					};
+					69D5B0891C844A230048633D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZNLZTB2JA2;
+						TestTargetID = 69D5B0701C844A1D0048633D;
+					};
+					69D5B0941C844A230048633D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZNLZTB2JA2;
+						TestTargetID = 69D5B0701C844A1D0048633D;
+					};
+				};
+			};
+			buildConfigurationList = 69D5B06C1C844A1D0048633D /* Build configuration list for PBXProject "YZPatternLockDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69D5B0681C844A1D0048633D;
+			productRefGroup = 69D5B0721C844A1D0048633D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69D5B0701C844A1D0048633D /* YZPatternLockDemo */,
+				69D5B0891C844A230048633D /* YZPatternLockDemoTests */,
+				69D5B0941C844A230048633D /* YZPatternLockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69D5B06F1C844A1D0048633D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D5B0841C844A210048633D /* LaunchScreen.storyboard in Resources */,
+				69D5B0C41C844D870048633D /* YZPatternHeaderView.xib in Resources */,
+				69D5B0811C844A210048633D /* Assets.xcassets in Resources */,
+				69D5B07F1C844A210048633D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D5B0881C844A230048633D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D5B0931C844A230048633D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69D5B06D1C844A1D0048633D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D5B0BC1C844D870048633D /* KKGestureLockView.m in Sources */,
+				69D5B0C31C844D870048633D /* YZPatternHeaderView.m in Sources */,
+				69D5B0C01C844D870048633D /* SPLockOverlay.m in Sources */,
+				69D5B0BB1C844D870048633D /* KKGestureLockPreviewView.m in Sources */,
+				69D5B07C1C844A200048633D /* ViewController.m in Sources */,
+				69D5B0BD1C844D870048633D /* MathForDraw.m in Sources */,
+				69D5B0C11C844D870048633D /* SPLockScreen.m in Sources */,
+				69D5B0791C844A1F0048633D /* AppDelegate.m in Sources */,
+				69D5B0BE1C844D870048633D /* NormalCircle.m in Sources */,
+				69D5B0BF1C844D870048633D /* SPLine.m in Sources */,
+				69D5B0C21C844D870048633D /* TrangleInLine.m in Sources */,
+				69D5B0761C844A1E0048633D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D5B0861C844A230048633D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D5B08F1C844A230048633D /* YZPatternLockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D5B0911C844A230048633D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69D5B09A1C844A230048633D /* YZPatternLockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69D5B08C1C844A230048633D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D5B0701C844A1D0048633D /* YZPatternLockDemo */;
+			targetProxy = 69D5B08B1C844A230048633D /* PBXContainerItemProxy */;
+		};
+		69D5B0971C844A230048633D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69D5B0701C844A1D0048633D /* YZPatternLockDemo */;
+			targetProxy = 69D5B0961C844A230048633D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69D5B07D1C844A210048633D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D5B07E1C844A210048633D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69D5B0821C844A210048633D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69D5B0831C844A210048633D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69D5B09C1C844A230048633D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69D5B09D1C844A230048633D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69D5B09F1C844A230048633D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZPatternLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.YZPatternLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69D5B0A01C844A230048633D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YZPatternLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.YZPatternLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		69D5B0A21C844A230048633D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZPatternLockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.YZPatternLockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZPatternLockDemo.app/YZPatternLockDemo";
+			};
+			name = Debug;
+		};
+		69D5B0A31C844A230048633D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YZPatternLockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.YZPatternLockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZPatternLockDemo.app/YZPatternLockDemo";
+			};
+			name = Release;
+		};
+		69D5B0A51C844A230048633D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZPatternLockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.YZPatternLockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZPatternLockDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		69D5B0A61C844A230048633D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YZPatternLockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YZ.YZPatternLockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YZPatternLockDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69D5B06C1C844A1D0048633D /* Build configuration list for PBXProject "YZPatternLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D5B09C1C844A230048633D /* Debug */,
+				69D5B09D1C844A230048633D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69D5B09E1C844A230048633D /* Build configuration list for PBXNativeTarget "YZPatternLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D5B09F1C844A230048633D /* Debug */,
+				69D5B0A01C844A230048633D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69D5B0A11C844A230048633D /* Build configuration list for PBXNativeTarget "YZPatternLockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D5B0A21C844A230048633D /* Debug */,
+				69D5B0A31C844A230048633D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69D5B0A41C844A230048633D /* Build configuration list for PBXNativeTarget "YZPatternLockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69D5B0A51C844A230048633D /* Debug */,
+				69D5B0A61C844A230048633D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69D5B0691C844A1D0048633D /* Project object */;
+}
